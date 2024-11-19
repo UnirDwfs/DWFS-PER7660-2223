@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.resume {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-photo {
+    margin-top: 10px;
+}
+
+.header-photo img {
+    width: 120px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #0073e6;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.header-info h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #0073e6;
+}
+
+.header-info h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.header-info p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.header-info a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.header-info a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 20px;
+    color: #0073e6;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
+}
+
+ul {
+    margin-left: 20px;
+    padding-left: 0;
+    list-style: disc;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.resume-summary,
+.resume-experience,
+.resume-education,
+.resume-skills,
+.resume-publications,
+.resume-languages {
+    margin-bottom: 20px;
+}
+
+.resume-skills ul li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
